@@ -49,9 +49,9 @@ export const uploadFileAndPrint = (slicerSettings, stlFile) => {
         headers : {
             'Content-Type': 'multipart/form-data'
         },
-    })
-
-    ;
+    });
 }
+
+export const fetchPrinterHealthStatus = () => api.get('/printer/health')
 
 export default api;

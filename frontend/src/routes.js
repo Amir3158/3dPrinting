@@ -17,7 +17,7 @@
 */
 import Dashboard from "views/printSTL.js";
 import UserProfile from "views/printerActions.js";
-// import TableList from "views/TableList.js";
+import TableList from "views/TableList.js";
 // import Typography from "views/Typography.js";
 // import Icons from "views/Icons.js";
 // import Maps from "views/Maps.js";
@@ -47,13 +47,13 @@ const dashboardRoutes = [
     component: UserProfile,
     layout: "/admin"
   },
-  // {
-  //   path: "/table",
-  //   name: "Table List",
-  //   icon: "nc-icon nc-notes",
-  //   component: TableList,
-  //   layout: "/admin"
-  // },
+  {
+    path: "/table",
+    name: "Table List",
+    icon: "nc-icon nc-notes",
+    component: TableList,
+    layout: "/admin"
+  },
   // {
   //   path: "/typography",
   //   name: "Typography",
